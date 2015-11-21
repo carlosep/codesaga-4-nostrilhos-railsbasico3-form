@@ -1,0 +1,11 @@
+<h1> Opinions </h1>
+
+<%= form_for :opinion, url: opinions_path do |f| %>
+  <p>
+    <%= f.label :body %><br>
+    <%= f.text_field :body %>
+  </p>
+ 
+  <%= f.submit 'Create an option' %>
+  </p>
+<% end %>
